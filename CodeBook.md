@@ -42,4 +42,6 @@ meanFreq( ): Weighted average of the frequency components to obtain a mean frequ
 
 These functions were appended to the original variable names, and the characters in the variable names were validated during the processing. For example, the mean estimate for tBodyAcc-X is labeled t.BodyAcc.mean...X, where the "-" was replaced by "." and "( )" by "..."
 
-The tidy data set derived from this data contains the average of the means and standard deviations of the variables listed above, as well as the mean frequency for the frequency components. The original values of these variables were not altered before the means were calculated, and neither were their units of measurement as a result.
+The variable "subject" represents one individual who participated in this study, while "activity" represents one of six possible activities: walking, walking upstairs, walking downstairs, standing, sitting and laying.
+
+The tidy data set produced by run_analysis.R contains columns with the average of the means and standard deviations of the variables listed above, as well as the mean frequency for the frequency components. The original values of these variables were not altered before the means were calculated, and neither were their units of measurement as a result.
