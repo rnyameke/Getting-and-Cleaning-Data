@@ -5,7 +5,7 @@ This script assumes that the working directory is set to the UCI HAR Dataset fol
 
 The script begins by loading the required libraries and importing all the files with the desired data, except files in the Inertial Signals folder.
 
-As the function used to extract the means later requires that the column names do not contain () and other  invalid characters, this script validates the column names with the make.names function, with an argument to make sure the resulting column names are unique.
+As the function used to extract the means later requires that the column names do not contain "( )" and other  invalid characters, this script validates the column names with the make.names function, with an argument to make sure the resulting column names are unique.
 
 In isolating the means and standard deviations, I chose to keep all columns that contain the words "mean" or "std" (case-sensitive). This includes columns with "meanFreq", as the codebook with the dataset explained that they were also means. "mean" was case-sensitive because when I initially inspected the dataset, I noticed that variables which were not true means were labeled with "Mean..."
 
