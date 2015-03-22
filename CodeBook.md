@@ -30,7 +30,7 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are: 
+The set of variables that were estimated from these signals and are still present in the tidy dataset are: 
 
 mean( ): Mean value
 
@@ -42,4 +42,4 @@ meanFreq( ): Weighted average of the frequency components to obtain a mean frequ
 
 These functions were appended to the original variable names, and the characters in the variable names were validated during the processing. For example, the mean estimate for tBodyAcc-X is labeled t.BodyAcc.mean...X, where the "-" was replaced by "." and "( )" by "..."
 
-The tidy data set derived from this data contains the average of the means and standard deviations of the variables listed above, as well as the mean frequency for the frequency components. The original values of these variables were not altered before the means were calculated.
+The tidy data set derived from this data contains the average of the means and standard deviations of the variables listed above, as well as the mean frequency for the frequency components. The original values of these variables were not altered before the means were calculated, and neither were their units of measurement as a result.
