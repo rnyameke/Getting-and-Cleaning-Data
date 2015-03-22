@@ -32,9 +32,11 @@ fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean...: Mean value
-std...: Standard deviation
-meanFreq...: Weighted average of the frequency components to obtain a mean frequency
+mean( ): Mean value
+
+std( ): Standard deviation
+
+meanFreq( ): Weighted average of the frequency components to obtain a mean frequency
 
 **Modifications**
 
